@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Sederhana</title>
+
+    <style>
+      section {
+        margin-bottom: 50px;
+      }
+
+      button {
+        margin-right: 5px;
+      }
+
+      #listBarang {
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>Suwit</h1>
+      <p>klik salah satu tombol berikut :</p>
+
+      <button class="tombol">SEMUT</button>
+      <button class="tombol">ORANG</button>
+      <button class="tombol">GAJAH</button>
+
+      <br /><br />
+
+      <p>Cek console untuk melihat jawaban Komputer dan User</p>
+    </section>
+
+    <section>
+      <h1>Array</h1>
+      <p id="listArray">Array :</p>
+
+      <button id="tombolPush">push</button>
+      <button id="tombolPop">pop</button>
+      <button id="tombolUnshift">unshift</button>
+
+      <br /><br />
+
+      <button id="tombolShift">shift</button>
+      <button id="tombolSortAsc">sort asc</button>
+      <button id="tombolSortDesc">sort desc</button>
+      <button id="tombolReset">reset array</button>
+    </section>
+
+    <section>
+      <h1>Pencarian</h1>
+
+      <input type="search" name="cari" id="cari" />
+
+      <br />
+
+      <div id="listBarang"></div>
+    </section>
+
+    <script src="./suwit.js"></script>
+    <script src="./array.js"></script>
+    <script src="./pencarian.js"></script>
+  </body>
+</html>
